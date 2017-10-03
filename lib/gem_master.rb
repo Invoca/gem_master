@@ -1,5 +1,7 @@
-require "gem_master/version"
+$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
 
 module GemMaster
-  # Your code goes here...
 end
+
+require 'gem_master/master_file'
+require 'gem_master/gemfile_mixin'

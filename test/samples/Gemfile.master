@@ -1,0 +1,7 @@
+gem 'nokogiri', '1.8.1'
+gem 'rake', '10.3.2', git: 'git@github.com:Invoca/rake', ref: '01ef2a598d9fb260310f9e08f74486407d4eab83'
+gem 'rdoc', '~> 3.12'
+gem 'memcache-client', '1.8.5'
+gem 'activerecord-import'
+gem 'invoca-utils',                    git: 'git@github.com:Invoca/invoca-utils.git',     ref: 'dd57ffcf552a526c7cf2cf5eea6e62bcbcdd2187'
+gem 'boolean_expression', '~> 1.0.1',  git: 'git@github.com:Invoca/boolean_expression',   ref: 'f588e1a97720d828df1e7ae5927f0484274a1190'
